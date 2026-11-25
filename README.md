@@ -27,15 +27,6 @@
   <a href="CHANGELOG.md">正式版更新日志</a>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/guide/overview-night-compact.png">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/guide/overview-night.png">
-    <source media="(max-width: 640px)" srcset="assets/guide/overview-classic-compact.png">
-    <img src="assets/guide/overview-classic.png" alt="沿时间轴回看资源团、比较双方禁选、查看 LPL 资格赛的晋级关系。">
-  </picture>
-</p>
-
 ---
 
 <a name="数据与更新记录"></a>
