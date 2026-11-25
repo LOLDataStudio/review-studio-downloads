@@ -4,6 +4,8 @@
   <img src="assets/review-studio.png" width="54" align="absmiddle" alt=""><img src="assets/review-studio-wordmark.svg" width="226" align="absmiddle" alt="Review Studio">
 </h1>
 
+<a name="作者"></a>
+
 <p align="center">
   作者 · <a href="https://github.com/MedusaFjd">MedusaFjd</a> · <a href="https://github.com/YuanWiz">YuanWiz</a>
 </p>
@@ -14,13 +16,29 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LOLDataStudio/review-studio-downloads/releases/latest"><strong>下载 Windows 正式版 2.4</strong></a>
-  <br><sub>Windows x64 · 安装包约 133 MiB</sub>
+  <a href="https://github.com/LOLDataStudio/review-studio-downloads/releases/latest"><strong>下载正式版 2.4</strong></a>
+  <br><sub>Windows x64</sub>
 </p>
 
 <p align="center">
-  <a href="#功能图览">按功能查找</a> · <a href="#安装与使用">安装与使用</a> · <a href="CHANGELOG.md">更新日志</a> · <a href="#窗口操作">窗口操作</a>
+  <a href="#功能图览">按功能查找</a> · <a href="#交互动效">看动效</a>
+  · <a href="#安装与使用">安装与使用</a> · <a href="#数据与升级">数据与升级</a>
+  <br>
+  <a href="CHANGELOG.md">正式版更新日志</a>
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/guide/overview-night-compact.png">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/guide/overview-night.png">
+    <source media="(max-width: 640px)" srcset="assets/guide/overview-classic-compact.png">
+    <img src="assets/guide/overview-classic.png" alt="沿时间轴回看资源团、比较双方禁选、查看 LPL 资格赛的晋级关系。">
+  </picture>
+</p>
+
+---
+
+<a name="数据与更新记录"></a>
 
 ## 最近更新
 
@@ -46,7 +64,7 @@
 <tr><th rowspan="1" scope="rowgroup" align="left" valign="top"><strong><a href="#%E6%A8%A1%E6%8B%9F">模拟</a></strong></th><td><a href="#%E8%8B%B1%E9%9B%84%E4%BC%98%E5%85%88%E7%BA%A7">英雄优先级</a> · <a href="#bp-%E6%A8%A1%E6%8B%9F">BP 模拟</a></td><td>分路英雄池 → 各局禁选方案</td></tr>
 </tbody>
 <tbody>
-<tr><th rowspan="1" scope="rowgroup" align="left" valign="top"><strong><a href="#%E8%B5%84%E6%96%99%E5%BA%93">资料库</a></strong></th><td><a href="#worldslpl-%E4%B8%8E-lck">Worlds、LPL、LCK</a></td><td>赛段 → <a href="#%E5%85%AC%E5%BC%80%E8%B5%9B%E4%BA%8B%E7%A6%81%E9%80%89%E4%B8%8E%E8%8B%B1%E9%9B%84%E7%BB%9F%E8%AE%A1">禁选与英雄统计</a> · <a href="#选手统计与逐局数据">选手统计与逐局详情</a>。战队 → <a href="#%E6%88%98%E9%98%9F%E6%AF%94%E8%B5%9B%E5%8E%86%E5%8F%B2">比赛历史</a></td></tr>
+<tr><th rowspan="1" scope="rowgroup" align="left" valign="top"><strong><a href="#%E8%B5%84%E6%96%99%E5%BA%93">资料库</a></strong></th><td><a href="#worldslpl-%E4%B8%8E-lck">Worlds、LPL、LCK</a></td><td>赛段 → <a href="#%E5%85%AC%E5%BC%80%E8%B5%9B%E4%BA%8B%E7%A6%81%E9%80%89%E4%B8%8E%E8%8B%B1%E9%9B%84%E7%BB%9F%E8%AE%A1">禁选与英雄统计</a> · <a href="#players-%E4%B8%8E%E9%80%90%E5%B1%80%E6%95%B0%E6%8D%AE">选手统计与逐局详情</a>。战队 → <a href="#%E6%88%98%E9%98%9F%E6%AF%94%E8%B5%9B%E5%8E%86%E5%8F%B2">比赛历史</a></td></tr>
 </tbody>
 <tbody>
 <tr><th rowspan="2" scope="rowgroup" align="left" valign="top"><strong><a href="#%E8%AE%BE%E7%BD%AE">设置</a></strong></th><td><a href="#%E8%AE%BE%E7%BD%AE%E9%A1%B5">设置页</a></td><td><a href="#%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%B8%8E%E7%95%8C%E9%9D%A2%E5%A4%96%E8%A7%82">个人信息与界面外观</a> · <a href="#%E5%9F%BA%E7%A1%80%E8%B5%84%E6%96%99%E5%BA%93">基础资料库</a></td></tr>
@@ -54,9 +72,22 @@
 </tbody>
 </table>
 
+[下载安装](#安装与使用) · [交互动效](#交互动效) · [窗口操作](#窗口操作) · [数据与升级](#数据与升级)
+
+图览与动效使用 Windows 正式版 2.4。团队页面使用演示数据。点击软件截图可查看原图。
+
 ## 训练赛
 
 <a name="训练赛与复盘"></a>
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="assets/guide/training-review-compact-still.webp">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/training-review-still.webp">
+  <source media="(max-width: 640px)" srcset="assets/guide/training-review-compact.gif">
+  <img src="assets/guide/training-review.gif" alt="从训练赛记录定位一局，展开双方 BP＋KDA，再进入赛事复盘查看团队事件时间轴。">
+</picture>
+
+[训练赛列表原图](assets/match-list.webp) · [展开 BP＋KDA](assets/training-match-demo.png) · [复盘时间轴](assets/match-review.webp)
 
 ### 训练赛记录
 
@@ -64,18 +95,31 @@
 
 双击本场截图打开原图后，可以选择「原始大小（100%）」查看细节，也可以选「适应窗口」看全图。需要补录整场资料时，进入复盘页的[编辑训练赛](#编辑训练赛)。
 
-[![训练赛记录按位置对照双方阵容、胜负和比赛信息。](assets/formal-scrim-records.png)](assets/formal-scrim-records.png)
+<details>
+<summary><strong>训练赛列表、录入与单局详情</strong>（3 张截图）</summary>
 
-*训练赛与 BP 总览截图使用演示数据。*
+**训练赛列表**
+
+[![训练赛记录表格中的日期、对手、选边和对位结果。](assets/match-list.webp)](assets/match-list.webp)
+
+**新增训练赛**
+
+[![新增训练赛时的表格录入行、禁选选项和截图入口。](assets/match-entry.webp)](assets/match-entry.webp)
+
+**单局 BP＋KDA**
+
+[![训练赛记录页面，上方是筛选和对局表格，下方展开一局的禁选、选手与 KDA。](assets/training-match-demo.png)](assets/training-match-demo.png)
+
+</details>
 
 ### BP 总览
 
 按日期在同一屏回看多局 BP，双击日期可编辑当天备注。「常规展示」可点 Ban 或 Pick 格修改实际训练赛的禁选。「横向展示」把多局排成表格，可筛选英雄、选择显示列、点击固定英雄高亮，方便找出连续几局重复出现的选择。
 
 <details>
-<summary>查看 BP 总览截图</summary>
+<summary><strong>BP 总览</strong>（1 张截图）</summary>
 
-[![横向展示把多局训练赛的禁选排在同一张表里。](assets/formal-draft-overview.png)](assets/formal-draft-overview.png)
+[![BP 总览按日期和局数并排显示多局蓝红方禁选。](assets/bp-overview.webp)](assets/bp-overview.webp)
 
 </details>
 
@@ -84,6 +128,13 @@
 选择上路、中路或双人路，按战队、英雄和日期筛选对线记录。每行并列展示双方对线英雄和打野、比赛胜负及对位评价。展开一行，可在「展示对线」和「展示团队」之间切换，回看这场比赛对应的事件时间轴。英雄对线详情使用相同视图并限定所选英雄。
 
 在支持的英雄头像上停留会打开统计浮窗，列出胜负、胜率、KDA 及近期对局。可调整场次范围，有选手上下文时还能切换「当前选手／全部数据」。点「显示英雄对线总览」继续查看该英雄的对位记录。
+
+<details>
+<summary><strong>对线情况总览</strong>（1 张截图）</summary>
+
+[![对线情况总览按位置呈现多局英雄对位和优势等级。](assets/lane-overview.webp)](assets/lane-overview.webp)
+
+</details>
 
 <a name="训练统计"></a>
 
@@ -100,35 +151,86 @@
 | 对位结果分布 | 比较已有评价的优势、均势和劣势场次，与整场胜负分开看。 |
 | 英雄表现与使用分布 | 按英雄比较出场、胜负、平均 K/D/A 和对位结果。从英雄记录可查看相关训练赛，再打开具体复盘。 |
 
+<a href="assets/player-stats.webp"><img src="assets/player-stats.webp" width="960" alt="演示选手档案，展示近期训练赛对位变化和结果分布。"></a>
+
 <a name="胜率统计"></a>
 
 ### 英雄数据
 
 「全队胜率」按版本比较战队整体成绩。下方英雄表可以按战队、位置、版本和「只看第一局」缩小范围，查看 Ban、Pick、BP 率、胜率、平均 K/D/A、一选率、Counter 率和平均对位。点表头可排序，「添加关注英雄」可以把尚未出场的英雄也放进观察名单。
 
+<details>
+<summary><strong>英雄数据表</strong>（1 张截图）</summary>
+
+[![英雄数据中的全队胜率、英雄禁选率、胜率及 KDA。](assets/win-rates.webp)](assets/win-rates.webp)
+
+</details>
+
 ### 赛事复盘
 
 从一行训练赛进入会打开指定对局。侧栏的「赛事复盘」优先恢复上次查看的比赛。训练赛分组标题旁的「复盘」可显示或收起侧栏入口。
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/guide/review-navigation-night-compact.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/guide/review-navigation-night.png">
+  <source media="(max-width: 640px)" srcset="assets/guide/review-navigation-compact.png">
+  <img src="assets/guide/review-navigation.png" alt="训练赛下的赛事复盘有 BP、对线复盘、团队事件、结果和总结五个页签。右上角的编辑训练赛另外打开五步录入窗口。">
+</picture>
 
 #### BP
 
 对照实际禁选顺序，修改 Ban、Pick 并点击「保存 BP」，写回这场训练赛。
 
+<details>
+<summary><strong>BP 页签</strong>（1 张截图）</summary>
+
+[![赛事复盘的 BP 页，查看本局双方禁选与顺序。](assets/guide/review-draft.webp)](assets/guide/review-draft.webp)
+
+</details>
+
 #### 对线复盘
 
 在上路、中路、双人路之间切换，查看前 20 分钟的时间轴。可新增时间点或时间段，标记事件、视角、优劣势与说明。团队事件也会出现在对应时间段。
+
+<details>
+<summary><strong>对线复盘页签</strong>（1 张截图）</summary>
+
+[![对线复盘页按位置查看双方选手、英雄和对线记录。](assets/guide/review-lanes.webp)](assets/guide/review-lanes.webp)
+
+</details>
 
 #### 团队事件
 
 在整场比赛的时间轴上记录小龙、资源争夺等事件。拖动标注调整时间，在下方「事件详情」查看、编辑或删除记录。
 
+<details>
+<summary><strong>团队事件页签</strong>（1 张截图）</summary>
+
+[![赛事复盘界面，含对局时间轴、团队事件和总结。](assets/match-review.webp)](assets/match-review.webp)
+
+</details>
+
 #### 结果
 
 查看比赛胜负、双方阵容和已导入的资源记录。需要改 KDA 时，从页头打开「编辑训练赛」。
 
+<details>
+<summary><strong>结果页签</strong>（1 张截图）</summary>
+
+[![结果页展示双方阵容、胜负及本场资源记录。](assets/guide/review-result.webp)](assets/guide/review-result.webp)
+
+</details>
+
 #### 总结
 
 为本局写下做得好的地方和下一场要调整的内容，保存后可回来继续复盘。
+
+<details>
+<summary><strong>总结页签</strong>（1 张截图）</summary>
+
+[![总结页记录这场训练赛的结论和待改进事项。](assets/guide/review-summary.webp)](assets/guide/review-summary.webp)
+
+</details>
 
 #### 编辑训练赛
 
@@ -142,15 +244,56 @@
 | BP（可选） | 按实际出手顺序补录本局禁选。 |
 | 确认保存 | 核对对阵和双方阵容，填写备注，再点「保存并复盘」。 |
 
+<details>
+<summary><strong>完整编辑器的五个步骤</strong>（5 张截图）</summary>
+
+**基本信息**
+
+[![训练赛编辑器的基本信息，包括日期、对阵和胜方。](assets/guide/editor-basics.webp)](assets/guide/editor-basics.webp)
+
+**双方阵容**
+
+[![双方阵容页，按位置填写两方选手、英雄及 K/D/A。](assets/guide/editor-roster.webp)](assets/guide/editor-roster.webp)
+
+**召唤师技能与符文**
+
+[![召唤师技能与符文页，按位置录入双方的配置。](assets/guide/editor-spells.webp)](assets/guide/editor-spells.webp)
+
+**BP（可选）**
+
+[![训练赛编辑器的可选 BP 录入页。](assets/guide/editor-bp.webp)](assets/guide/editor-bp.webp)
+
+**确认保存**
+
+[![确认保存前汇总双方阵容与对局资料。](assets/guide/editor-confirm.webp)](assets/guide/editor-confirm.webp)
+
+</details>
+
 [返回功能图览](#功能图览)
 
 ## 模拟
 
 <a name="bp-与备战"></a>
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="assets/guide/draft-planning-compact-still.webp">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/draft-planning-still.webp">
+  <source media="(max-width: 640px)" srcset="assets/guide/draft-planning-compact.gif">
+  <img src="assets/guide/draft-planning.gif" alt="先按分路整理候选英雄，再为第一局和换边后的第二局分别安排禁选、备选及阶段备注。">
+</picture>
+
+[分路英雄池原图](assets/hero-priority.webp) · [两局 BP 模拟原图](assets/bp-simulator.webp)
+
 ### 英雄优先级
 
 在侧栏「模拟」选择「英雄优先级」，选定英雄池所属战队。按上、野、中、下、辅添加英雄，拖动调整顺序，右键标记优先级、我方绝活、敌方绝活或已使用。不同备战方案可以分工作页保存，支持新增、重命名和删除页。「保存英雄池」保留当前页的阵容、顺序和标记，「恢复英雄池」回到该页上次保存的内容。
+
+<details>
+<summary><strong>分路英雄池</strong>（1 张截图）</summary>
+
+[![英雄优先级页面按五个位置展示候选英雄和优先级标记。](assets/hero-priority.webp)](assets/hero-priority.webp)
+
+</details>
 
 ### BP 模拟
 
@@ -158,11 +301,27 @@
 
 拖选英雄格后用 **Ctrl+C / Ctrl+V** 复制选区。可从目标左上角跨阵营粘贴，选区中的空格也会覆盖目标。「批量粘贴」可选择目标页和目标盘。整盘复制仅包含 BP 格。打印时可勾选需要的对局，每局单独一页。
 
+<details>
+<summary><strong>BP 模拟</strong>（1 张截图）</summary>
+
+[![BP 模拟并排展示两局方案，包含两边的禁选、备选和阶段备注。](assets/bp-simulator.webp)](assets/bp-simulator.webp)
+
+</details>
+
 [返回功能图览](#功能图览)
 
 ## 资料库
 
 <a name="公开赛事"></a>
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="assets/guide/public-events-compact-still.webp">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/public-events-still.webp">
+  <source media="(max-width: 640px)" srcset="assets/guide/public-events-compact.gif">
+  <img src="assets/guide/public-events.gif" alt="从 LPL 赛段卡片查看赛果和逐局禁选，再以 Worlds 为例查看英雄统计。">
+</picture>
+
+[LPL 赛程原图](assets/lpl.webp) · [逐局禁选](assets/public-draft.webp) · [英雄统计](assets/public-champion-stats.webp)
 
 ### Worlds、LPL 与 LCK
 
@@ -175,9 +334,19 @@
 三个入口共用赛季选择、往期与最新阶段切换、赛事刷新和中英显示。赛事图可缩放、拖动和复位。点图中的战队可查看比赛历史。赛段卡片底部可以进入已提供的禁选和统计页。覆盖局数随已收录资料变化。
 
 <details>
-<summary>查看 Worlds 赛程截图</summary>
+<summary><strong>Worlds、LPL 与 LCK</strong>（3 张截图）</summary>
 
-[![Worlds 资料库并列展示瑞士轮战绩和淘汰赛晋级图。](assets/formal-worlds.png)](assets/formal-worlds.png)
+**Worlds**
+
+[![Worlds 资料页展示公开赛段和赛果。](assets/worlds.webp)](assets/worlds.webp)
+
+**LPL**
+
+[![LPL 资料页展示赛季阶段、赛事时间线和赛果。](assets/lpl.webp)](assets/lpl.webp)
+
+**LCK**
+
+[![LCK 资料页展示公开赛段和赛果。](assets/lck.webp)](assets/lck.webp)
 
 </details>
 
@@ -187,17 +356,57 @@
 - **Picks & Bans · 横向展示** 把多局排成对照表，在「显示列」选择要看的字段。可以用高亮标记英雄，比较其在不同对局的选禁位置。
 - **Champion Stats** 按赛段、队伍、位置、选手和英雄筛选。用场次、禁选率、胜负、KDA、经济或伤害等列比较英雄，再从可点击的场次或选手查看明细。
 
-#### 选手统计与逐局数据
+<details>
+<summary><strong>逐局禁选与英雄统计表</strong>（2 张截图）</summary>
+
+**Picks & Bans**
+
+[![公开赛事 Picks & Bans 页面，列出选定赛段的比赛禁选。](assets/public-draft.webp)](assets/public-draft.webp)
+
+**Champion Stats**
+
+[![公开赛事 Champion Stats 页面，展示英雄禁选、胜率等赛段指标。](assets/public-champion-stats.webp)](assets/public-champion-stats.webp)
+
+</details>
+
+[查看禁选动图](#禁选展开与横向切换) · [查看完整窗口原图](assets/guide/bp-display-full.webp)
+
+#### Players 与逐局数据
 
 | 页面或详情 | 可以做什么 |
 | --- | --- |
 | **Player Stats · 赛段选手统计** | 从 Worlds、LPL 或 LCK 的赛段卡片进入，按位置、队伍和选手汇总有完整计分板的对局。比较场次、胜率、KDA、补刀、视野、经济、伤害、参团率和英雄数。点击 **G（场次）** 打开该选手在当前范围内的逐局记录。 |
+| **Players · 公开选手资料** | 公开选手资料可按选手、位置和赛事筛选。职业赛事的分段统计可从赛段卡片打开，团队训练赛则使用侧栏「选手数据」。 |
 | **选手全年英雄统计** | 从比赛历史点击已有逐局资料的选手，查看该赛季用过哪些英雄、出场多少次和胜率。赛事和赛段筛选可进一步缩小范围。 |
 | **逐局详情与 By 明细** | 在逐局表里查看日期、版本、选边、对位英雄、阵容、技能和装备等已收录字段。英雄统计的 **By** 可查看使用该英雄的选手。从可点击的选手 ID 可继续看同一赛事范围内的对局。 |
+
+<details>
+<summary><strong>赛段 Player Stats、Players 和逐局详情</strong>（3 张截图）</summary>
+
+**赛段 Player Stats**
+
+[![Worlds 赛段的 Player Stats 表，点击场次可查看该选手的逐局数据。](assets/guide/event-player-stats.webp)](assets/guide/event-player-stats.webp)
+
+**Players**
+
+[![公开选手资料入口 Players，支持按选手、位置和赛事筛选。](assets/players.webp)](assets/players.webp)
+
+**逐局详情**
+
+[![公开选手逐局详情，按日期列出比赛、英雄、对位和 KDA。](assets/public-player-games.webp)](assets/public-player-games.webp)
+
+</details>
 
 #### 战队比赛历史
 
 点赛程或禁选页中的战队，进入该队的「比赛历史」。表格分为「基本信息」「英雄」「当局选手」三组。从日期、版本、胜负、选边和对手定位一局，再对照双方 Ban、Pick 与阵容。可用「当局选手」表头切换整表的本方或对方阵容，悬停英雄时同页的同一英雄会一起高亮。
+
+<details>
+<summary><strong>战队比赛历史</strong>（1 张截图）</summary>
+
+[![公开赛事的战队比赛历史，按局列出赛果、禁选和当局选手。](assets/guide/team-history.webp)](assets/guide/team-history.webp)
+
+</details>
 
 [返回功能图览](#功能图览)
 
@@ -218,8 +427,24 @@
 | 入口或栏目 | 可以做什么 |
 | --- | --- |
 | **个人信息** | 登录后维护显示名称、头像和密码，或退出登录。上传图片后可拖动和缩放裁切头像。也可直接点击标题栏头像或用户名。 |
+| **界面主题与字体** | 可选经典蓝、雾港蓝、夜航蓝，并在 400、500、600、700 四档间调整字重。主题立即生效，下次启动保留。 |
 | **页面与表格** | 选择等比缩放或原尺寸、固定或手动侧栏宽度、滚动停止后显示表头或一直显示。可设重新进入页面时每次重置、离开 30 秒后重置或在本窗口保留，并选择赛事图按内容宽度适配或使用原有布局。 |
 | **团队工作空间与团队数据** | 查看当前所在的空间。软件管理员可在获授权的团队与公共资料间切换。在线团队数据按账号权限从服务器读取。断线且有未提交编辑时，可从同步提示导出未提交的修改。 |
+
+<a href="assets/appearance.webp"><img src="assets/appearance.webp" width="960" alt="设置页面展示外观主题、字体粗细和团队在线空间。"></a>
+
+<details>
+<summary><strong>登录与个人信息弹窗</strong>（2 张截图）</summary>
+
+**登录**
+
+[![登录窗口展示账号、密码和注册入口。](assets/sign-in.webp)](assets/sign-in.webp)
+
+**个人信息**
+
+[![个人信息弹窗展示账号头像、名称及密码修改入口。](assets/account.webp)](assets/account.webp)
+
+</details>
 
 #### 基础资料库
 
@@ -230,6 +455,21 @@
 | <a name="英雄库"></a>**英雄库** | 按分路或中文、英文、韩文、拼音、首字母、昵称搜索。悬停英雄头像可看最近训练赛表现。有权限时可维护英雄资料和别名，供训练赛与 BP 录入时匹配。 |
 | <a name="战队选手库"></a>**战队选手库** | 在「战队」按赛区选队，再查该队各位置的选手。管理员可维护战队名称、简称、队标，以及选手姓名、头像和一个或多个位置。 |
 | <a name="召唤师技能及符文"></a>**召唤师技能及符文** | 「召唤师技能」和「基石符文」分开展示名称与图标。有权限时可新增条目，双击卡片编辑标准名称、别名和图标。 |
+
+<a href="assets/champion-library.webp"><img src="assets/champion-library.webp" width="960" alt="英雄库展示搜索框、分路筛选及英雄列表。"></a>
+
+<details>
+<summary><strong>战队选手库与技能符文</strong>（2 张截图）</summary>
+
+**战队选手库**
+
+[![战队选手库展示演示战队及五个位置的成员。](assets/team-roster.webp)](assets/team-roster.webp)
+
+**召唤师技能及符文**
+
+[![召唤师技能及符文页面展示两类基础资料。](assets/spells-runes.webp)](assets/spells-runes.webp)
+
+</details>
 
 <a name="人员管理与操作记录"></a>
 
@@ -243,11 +483,31 @@
 
 管理员查看待审批申请、申请加入的团队，决定批准或拒绝。
 
+<details>
+<summary><strong>成员列表与入队申请</strong>（2 张截图）</summary>
+
+**全部成员**
+
+[![演示团队的人员管理页面，展示成员、角色和状态。](assets/team-members.webp)](assets/team-members.webp)
+
+**入队申请**
+
+[![人员管理的入队申请页，展示当前待审批的申请。](assets/guide/member-requests.webp)](assets/guide/member-requests.webp)
+
+</details>
+
 ### 操作记录
 
 管理员按权限查看操作人、时间和修改对象。「展开快照」看当时内容，「查看对照」比较修改前后。允许恢复的条目提供「恢复」。有后续编辑冲突时会保留当前内容。删除记录只移除该条日志。
 
 登录成员可用标题栏「撤回自己的修改」撤回本人在当前页面的编辑。管理员的「编辑记录」通往操作记录。顶部状态区会区分正在同步、正在重连和连接中断，待审批提醒可直接进入人员管理。
+
+<details>
+<summary><strong>操作记录</strong>（1 张截图）</summary>
+
+[![操作记录页面展示演示成员对训练赛所做的修改。](assets/history.webp)](assets/history.webp)
+
+</details>
 
 [返回功能图览](#功能图览)
 
@@ -259,8 +519,64 @@
 
 右键侧栏入口，选择「在新窗口打开」。例如在主窗口做复盘，同时让独立窗口停在选手数据页，核对对位和英雄表现。窗口可以各自浏览页面。
 
+<details>
+<summary><strong>右键入口与独立窗口</strong>（2 张截图）</summary>
+
+**右键侧栏入口**
+
+[![在侧栏右键选手数据，打开「在新窗口打开」菜单。](assets/page-window.webp)](assets/page-window.webp)
+
+**独立窗口**
+
+[![在独立窗口查看选手数据与近期训练赛表现。](assets/detached-stats.webp)](assets/detached-stats.webp)
+
+</details>
+
+<a name="窗口与交互动效"></a>
+
+## 交互动效
+
+<p>
+<a href="assets/guide/ui-button.gif"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/ui-button-still.webp">
+  <img width="420" src="assets/guide/ui-button.gif" alt="按钮按下与松开">
+</picture></a>
+<a href="assets/guide/ui-hover.gif"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/ui-hover-still.webp">
+  <img width="420" src="assets/guide/ui-hover.gif" alt="指针悬停">
+</picture></a>
+<a href="assets/guide/ui-navigation.gif"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/ui-navigation-still.webp">
+  <img width="420" src="assets/guide/ui-navigation.gif" alt="页面切换">
+</picture></a>
+<a href="assets/guide/ui-tabs.gif"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/ui-tabs-still.webp">
+  <img width="420" src="assets/guide/ui-tabs.gif" alt="页签切换与选中滑块">
+</picture></a>
+<a href="assets/guide/ui-sidebar.gif"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/ui-sidebar-still.webp">
+  <img width="420" src="assets/guide/ui-sidebar.gif" alt="侧栏收合">
+</picture></a>
+<a href="assets/guide/ui-slider.gif"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/ui-slider-still.webp">
+  <img width="420" src="assets/guide/ui-slider.gif" alt="拖动字体滑块">
+</picture></a>
+</p>
+
+### 禁选展开与横向切换
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="assets/guide/bp-display-compact-still.webp">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/guide/bp-display-still.webp">
+  <source media="(max-width: 640px)" srcset="assets/guide/bp-display-compact.gif">
+  <img src="assets/guide/bp-display.gif" alt="公开赛事 Picks & Bans 实际页面展开本页禁选，再切换到横向展示并返回。">
+</picture>
+
 ## 安装与使用
 
-1. 从[正式版发布页](https://github.com/LOLDataStudio/review-studio-downloads/releases/latest)的 **Assets** 下载 Windows x64 安装包 `ReviewStudio-Formal-2.4-Online-20261124.exe`，运行安装。
+1. 使用 Windows x64。在[正式版发布页](https://github.com/LOLDataStudio/review-studio-downloads/releases/latest)的 **Assets** 下载 `ReviewStudio-Formal-2.4-Online-20261124.exe` 并运行安装。
 2. 首次使用需要联网。未登录时可浏览公开赛事资料。登录并加入团队后，按权限查看或编辑该团队的训练赛、BP 和统计。
-3. 覆盖升级时，先退出程序，再选择原有的正式版安装目录，以保留已有本机数据。
+
+## 数据与升级
+
+覆盖升级前退出程序，备份已有本机数据，再选择原正式版的安装目录。覆盖升级保留已有数据和配置。查看历次版本的升级说明。 [正式版更新日志](CHANGELOG.md)
