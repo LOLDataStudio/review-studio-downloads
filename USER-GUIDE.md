@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LOLDataStudio/review-studio-downloads/releases/latest"><strong>下载正式版 2.4</strong></a>
+  <a href="https://github.com/LOLDataStudio/review-studio-downloads/releases/latest"><strong>下载正式版 2.5</strong></a>
   <br><sub>Windows x64</sub>
 </p>
 
@@ -35,11 +35,11 @@
 
 ## 最近更新
 
-**正式版 2.4 · 2026-11-24**
+**正式版 2.5 · 2026-11-26**
 
-- **训练赛记录**可以在列表里改，也可以打开完整编辑页。返回列表时，筛选、滚动位置和已展开的行会恢复。
-- **BP 模拟**可以跨阵营框选，复制粘贴或批量清除。撤回时，本机会先显示结果。
-- **资料库**的 Worlds、LPL 和 LCK 都加了 Player Stats。逐局详情按游戏里的槽位排列符文和属性碎片，鼠标移上去就能看到中文名。
+- **训练赛记录**可按五路多选对手选手，从「胜负」表头查看当前筛选范围内的总场数和胜率。
+- **英雄优先级**可在英雄池右侧查看本队训练赛数据。英雄池支持竖版 A4 预览，BP 模拟支持选中对局的横版 A4 预览。
+- **资料库**的阵容筛选按五路排列，赛事英雄统计恢复位置滑块动画。
 
 [查看正式版更新日志](CHANGELOG.md)
 
@@ -567,7 +567,7 @@
 
 ## 安装与使用
 
-1. 使用 Windows x64。在[正式版发布页](https://github.com/LOLDataStudio/review-studio-downloads/releases/latest)的 **Assets** 下载 `ReviewStudio-Formal-2.4-Online-20261124.exe` 并运行安装。
+1. 使用 Windows x64。在[正式版发布页](https://github.com/LOLDataStudio/review-studio-downloads/releases/latest)的 **Assets** 下载 `ReviewStudio-Formal-2.5-Online-20261126.exe` 并运行安装。
 2. 第一次打开需要联网。没登录也可以查看公开赛事。登录并加入团队后，能按权限查看或编辑该队的训练赛、BP 和统计。
 
 ## 数据与升级
