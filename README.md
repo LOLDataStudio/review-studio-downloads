@@ -15,9 +15,9 @@ Review Studio 是一款用来记训练赛、复盘和准备 BP 的英雄联盟�
 
 ## 下载与安装
 
-[**下载正式版 2.4（Windows x64）**](https://github.com/LOLDataStudio/review-studio-downloads/releases/latest) · [正式版更新日志](CHANGELOG.md)
+[**下载正式版 2.5（Windows x64）**](https://github.com/LOLDataStudio/review-studio-downloads/releases/latest) · [正式版更新日志](CHANGELOG.md)
 
-在发布页的 **Assets** 下载 `ReviewStudio-Formal-2.4-Online-20261124.exe` 并安装。
+在发布页的 **Assets** 下载 `ReviewStudio-Formal-2.5-Online-20261126.exe` 并安装。
 
 第一次打开时要联网。升级前先备份本机数据、退出软件，再安装到原正式版的安装目录。这样可以保留已有数据和配置。
 
@@ -69,11 +69,11 @@ Picks & Bans 里既可以顺着系列赛看每一局，也能把几局排到同�
 
 ## 最近更新
 
-**正式版 2.4 · 2026-11-24**
+**正式版 2.5 · 2026-11-26**
 
-- **训练赛记录**｜已保存的比赛可以行内编辑，也可以打开完整编辑页。返回列表时恢复筛选、滚动位置和展开状态。
-- **BP 模拟**｜支持跨阵营框选、复制粘贴和批量清除，撤回时先在本机显示结果。
-- **资料库**｜Worlds、LPL 和 LCK 都增加了 Player Stats。逐局详情按槽位列出符文和属性碎片，悬停可看中文名。
+- **训练赛记录**｜可按位置多选对手选手，在胜负表头查看当前筛选范围内的胜率。
+- **英雄优先级与 BP 模拟**｜英雄池可查看本队训练赛英雄数据。英雄池和所选 BP 对局均支持 A4 打印预览。
+- **资料库**｜可按五路筛选逐局阵容，Worlds、LPL 和 LCK 的 Champion Stats 恢复位置滑块动画。
 
 [查看历次正式版更新](CHANGELOG.md)
 
